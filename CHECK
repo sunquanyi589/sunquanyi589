@@ -1,0 +1,13 @@
+ { 
+    if (CHECK_SUBSCRIPTION_RESPONSE == NULL) 
+      return null; 
+ 
+    if (CHECK_SUBSCRIPTION_RESPONSE == EXCEPTION) 
+      throw new NullPointerException("Developer Null Pointer"); 
+ 
+    if (CHECK_SUBSCRIPTION_RESPONSE == BILLING_EXCEPTION) 
+      throw new BillingException("Developer Billing Exception"); 
+ 
+    inBillingInfo.setSubscriptionTerminated(false); 
+ 
+    return inBillingInfo; 
