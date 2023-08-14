@@ -1,0 +1,10 @@
+package ianywhere.ultralitej.demo;
+import ianywhere.ultralitej.*;
+/** Create a sales report to illustrate aggregation support.
+ */
+public class SalesReport
+{
+    /** Mainline.
+     * @param args program arguments (not used)
+     */
+    public static void main( String[] args )
