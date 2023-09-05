@@ -1,0 +1,5 @@
+// to read the configuration values. 
+ 
+		String hostname = OperatorProxyProperties.EXTERNAL_SERVER_ADDRESS;  
+		String port = OperatorProxyProperties.EXTERNAL_SERVER_PORT;  
+		String clientLoginId = OperatorProxyProperties.CLIENT_LOGIN;  
